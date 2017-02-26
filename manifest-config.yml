@@ -9,8 +9,8 @@ env:
 #    comment out for single standalone node or modify to point to Eureka peer
 #    EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server2.emea.fe.gopivotal.com/eureka/
 applications:
-- name: eureka-server1
-  path: registryServer/build/libs/registry-0.2.jar
+- name: config-server1
+  path: config-server/build/libs/config-0.2.jar
   hosts:
-    - eureka-server1
-    - eureka
+    - config-server1
+    - config
